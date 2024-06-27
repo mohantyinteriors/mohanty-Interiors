@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Mohanty Intoriers</title>
+
+</head>
+
+<body>
+    <header class="bg-purple text-white p-3">
+        <nav class="navbar navbar-expand-lg bg-purple">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Mohanty Intoriers<img src="./images/logo.png" alt="logo"></a> -->
+                <a class="navbar-brand-text" href="#">Mohanty Intoriers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="tagline">
+                            <h1 class="dm-serif-text-regular">Mohanty Intoriers</h1>
+                            <h2 class="animate__animated animate__typewriter" id="typing-animation"></h2>
+                            <p>At Mohanty Interiors, we believe that every space has a story to tell, and it is our
+                                mission to bring those stories to life through exceptional design and craftsmanship.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" id="swiper-wrapper">
+                                <!-- Slides will be inserted here by JavaScript -->
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="cntr-h2">
+                <h2>Features</h2>
+            </div>
+            <div class="feature-container">
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h2>Custom Design Solutions</h2>
+                    <p>Tailored interiors that reflect your unique style and personality.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-hammer"></i></div>
+                    <h2>Expert Craftsmanship</h2>
+                    <p>High-quality workmanship ensures durable and stunning results.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h2>Innovative Space Planning</h2>
+                    <p>Maximizing functionality and aesthetics for optimal living and working environments.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-tasks"></i></div>
+                    <h2>Comprehensive Services</h2>
+                    <p>From concept to completion, we handle every aspect of your interior design project.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-eye"></i></div>
+                    <h2>Attention to Detail</h2>
+                    <p>Meticulous planning and execution for a flawless finish.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h2>Client-Centric Approach</h2>
+                    <p>Collaborative design process that prioritizes your vision and needs.</p>
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <div class="cntr-h2">
+            <h2>Our Location</h2>
+        </div>
+            <div id="map">
+                <!-- Embed Google Map with dark mode -->
+                <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2957270059916!2d77.69046809999999!3d12.9959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae110ca2a48fa5%3A0x1db58c0ec61c545!2sMohanty%20interiors!5e0!3m2!1sen!2sin!4v1624793640673!5m2!1sen!2sin&amp;mode=dark">
+                </iframe>
+            </div>
+        </section>
+        <div class="elfsight-app-e0b1232a-8f2a-41f6-bf52-b1260a5c4a7a" data-elfsight-app-lazy></div>
+        
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Mohanty Intoriers. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Example JavaScript (optional)
+        $(document).ready(function () {
+            console.log("Document ready!");
+            // Add your JavaScript functionality here
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</body>
+
+</html>

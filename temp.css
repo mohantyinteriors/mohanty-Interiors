@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: purple;
+}
+
+ul li {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: transparent; /* Ensure the navbar doesn't override the header background */
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Hover effect for navbar-brand */
+.navbar-brand:hover {
+    color: lightgray;
+}
+
+/* Hover effect for navbar items */
+.nav-link:hover {
+    color: lightgray;
+}
+
+/* Ensure the dropdown menu is styled correctly */
+.dropdown-menu {
+    background-color: purple;
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: lightgray;
+    color: purple;
+}
+
+.first {
+    padding: 40px 0;
+}
+
+.tagline h1 {
+    color: purple;
+    font-size: 2.5em;
+}
+
+.tagline p {
+    font-size: 1.2em;
+}
+
+.frame {
+    border: 5px solid purple;
+    padding: 5px;
+}
+
+.frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Swiper CSS overrides */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    background: purple;
+}
+
